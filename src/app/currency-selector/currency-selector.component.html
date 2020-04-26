@@ -1,0 +1,9 @@
+<div class="currency-selector">
+  <div class="heading">Select your amount and currency: </div>
+  <div class="content">
+    <input type="number" placeholder="amount" value="{{selectedAmount}}" (keyup)="changeSelectedAmount($event.target.value)" />
+    <select (change)="changeSelectedCurrency($event.target.value)">
+      <option *ngFor="let rate of objectKeys(rates)" value="{{rate}}">{{rate}}</option>
+    </select>
+  </div>
+</div>

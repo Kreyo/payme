@@ -1,0 +1,8 @@
+<div class="currency-results">
+  <div>
+    <b>{{ selectedAmount | number }} USD would get you {{ selectedAmount * rates[selectedCurrency] }} {{ selectedCurrency }}</b>
+  </div>
+  <div>
+    <b>{{ selectedAmount }}  {{ selectedCurrency }} would get you {{ selectedAmount / rates[selectedCurrency] }} USD</b>
+  </div>
+</div>

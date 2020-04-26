@@ -1,0 +1,16 @@
+.currency-selector {
+  padding: 16px;
+}
+
+.heading {
+  margin-bottom: 8px;
+}
+
+.currency-selector input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.currency-selector select {
+  height: 32px;
+}
